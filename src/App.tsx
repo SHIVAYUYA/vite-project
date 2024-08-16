@@ -11,7 +11,6 @@ function App() {
       <CountPreview hoge={count} />
       <button onClick={function(){
         setCount(count + 1)
-        console.log(count)
       }}>+</button>
 
       <button onClick={function(){
